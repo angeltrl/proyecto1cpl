@@ -100,14 +100,13 @@ main .img-container {
 }
 
 header {
-    background-color: rgb(236, 210, 221);
+    background-color: rgb(255, 255, 255);
 }
 
 .presentacion {
-    background-color: rgb(236, 210, 221);
+    background-color: rgb(255, 255, 255);
     
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
@@ -121,6 +120,7 @@ header {
 
 
 .iconos {
+    width: 10px;
     
     display: flex;
     flex-direction: row;
@@ -129,9 +129,6 @@ header {
     text-align: center;
 }
 
-#linke {
-    width: 5px;
-}
 
 footer {
     background-color: aqua;
