@@ -15,7 +15,9 @@ h2 {
     }
         
 p {
+    margin: 1em;
     font-size: 1.25em;
+    text-align: justify;
     }
 
 ul {
@@ -59,6 +61,7 @@ header nav {
 
 header a{
     padding-left: 30px;
+
     padding-bottom: 20px;
     font-size: 4.5em;
     font-weight: bold;
@@ -88,6 +91,7 @@ button:hover {
 main .img-container {
     justify-content: center;
     align-items: center;
+    margin: 8em 1em;
 
 
 }
@@ -95,8 +99,13 @@ main .img-container {
 
 
 #foto {
-    width: 40em;
+    width: 50em;
     border-radius: 50%;
+}
+
+#title {
+    margin-bottom: 2em;
+    font-size: 7em;
 }
 
 header {
@@ -115,21 +124,37 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 2em;
     border-radius: 10%;
 }
 
-
 .iconos {
-    width: 10px;
-    
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content:justify;
+    
 }
 
+#ico-mail {
+    width: 200px;
+    margin: 4em 4em 5em 6em;
+
+}
+
+#ico-git {
+    width: 200px;
+    margin: 4em 4em 5em 2em;
+
+}
+
+#ico-link {
+    width: 200px;
+    margin: 4em 4em 5em 2em;
+}
 
 footer {
     background-color: aqua;
+    padding: 5em 1em;
+    text-align: center;
 }
+
